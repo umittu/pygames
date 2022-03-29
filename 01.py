@@ -13,7 +13,7 @@ def main():
     #ウィンドウに表示されるタイトルを指定
     pygame.display.set_caption("初めてのPygame")
     #スクリーンを初期化
-    screen =pygame.dispay.set_mode((800,600))
+    screen =pygame.display.set_mode((800,600))
     #clockオブジェクトを作成
     clock = pygame.time.Clock()
     #フォントオブジェクトを作成
